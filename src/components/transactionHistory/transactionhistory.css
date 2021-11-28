@@ -1,0 +1,75 @@
+.transaction-history {
+  display: flex;
+  flex-direction: column;
+  margin-right:1rem;
+}
+
+.transaction-history p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #a6aec9;
+
+  opacity: 0.7;
+}
+
+.transaction-history h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #061423;
+}
+
+.transaction-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.transaction-history-header h3 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #061423;
+}
+
+.transaction-history-header-dropdown {
+  display: flex;
+  background: #f1f2fb;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.transaction-history-header-dropdown p {
+  font-family: var(--font-family);
+  font-size: 10px;
+  line-height: 15px;
+
+  text-align: center;
+
+  color: #35404e;
+  margin-right: 0.5rem;
+}
+
+.transaction-history-graph {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-history-graph img {
+  width: 100%;
+}

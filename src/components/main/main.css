@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-container-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+.main-container-bottom-left {
+    flex:1;
+}
+
+.main-container-bottom-right {
+    flex:1;
+}
+
+@media screen and (max-width:1200px) {
+    .main-container-bottom {
+        flex-direction: column;
+    }
+    .main-container-bottom-right {
+        margin-top: 5rem;
+    }
+
+}

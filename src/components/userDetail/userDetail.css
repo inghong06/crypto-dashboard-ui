@@ -1,0 +1,129 @@
+.userdetail-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.userdetail-container-heading {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.userdetail-container-heading div {
+  border-radius: 100%;
+  overflow: hidden;
+  width: auto;
+  height: 50px;
+}
+
+.userdetail-container-heading img {
+  width: 100%;
+  height: 100%;
+}
+
+.userdetail-container-heading p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.userdetail-container-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.userdetail-container-content-card {
+  display: flex;
+  justify-content: flex-start;
+
+  margin-bottom: 5rem;
+}
+
+.userdetail-container-content-card div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+
+.userdetail-container-content-card p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  color: #9a9fad;
+}
+
+.userdetail-container-content-card h4 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.userdetail-container-content-card-icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.total-mined {
+  background-color: #5843be;
+}
+
+.total-networth {
+  background-color: #427a0a;
+}
+
+.total-earnings {
+  background-color: #fa5f1c;
+}
+
+.harvested-losses {
+  background-color: #1a55af;
+}
+
+.userdetail-container-button {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  background: #f26c6d;
+  border-radius: 10px;
+}
+
+.userdetail-container-button p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+
+.userdetail-container-message {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 2rem;
+  color: #9a9fad;
+}
+
+

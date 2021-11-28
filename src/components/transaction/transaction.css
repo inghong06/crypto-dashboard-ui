@@ -1,0 +1,42 @@
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin:1rem 0 0 0;
+}
+
+.transaction-container-detail-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.transaction-container-detail-name p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2a316f;
+  padding-right: 0.3rem;
+}
+
+.transaction-container-detail-name p:last-child {
+  padding-left: 0.3rem;
+}
+
+.transaction-container-detail-time p {
+  font-family: var(--font-family);
+  font-size: 10px;
+  line-height: 13px;
+  color: #9a9fad;
+}
+
+.transaction-container-amount h4 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #2a316f;
+}
