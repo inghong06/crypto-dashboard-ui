@@ -37,18 +37,18 @@ const NavBar = () => {
             <p>Cryptocurrencies</p>
           </div>
         </Link>
-        <Link to="/exchanges">
+        {/* <Link to="/exchanges">
           <div className="navbar-content-component">
             <HiOutlineScale size="2em" />
             <p>Exchanges</p>
           </div>
-        </Link>
-        <Link to="/markets">
+        </Link> */}
+        {/* <Link to="/markets">
           <div className="navbar-content-component">
             <AiOutlineStock size="2em" />
             <p>Markets</p>
           </div>
-        </Link>
+        </Link> */}
         <Link to="/news">
           <div className="navbar-content-component">
             <HiOutlineNewspaper size="2em" />
