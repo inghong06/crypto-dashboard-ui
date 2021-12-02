@@ -1,24 +1,37 @@
 import React from "react";
-import Cards from "../cards/Cards";
-import Swaps from "../swaps/Swaps";
-import swaps from "../swaps/Swaps";
-import TransactionHistory from "../transactionHistory/TransactionHistory";
 import "./main.css";
-
+import { Routes, Route } from "react-router-dom";
+import {
+  Home,
+  Cryptocurrencies,
+  Exchanges,
+  Markets,
+  News,
+  CryptoDetails
+} from "../../components";
 
 const Main = () => {
   return (
-    <div className="main-container section__padding">
-      <Cards />
-      <div className="main-container-bottom">
-          <div className="main-container-bottom-left">
-              <TransactionHistory />
-          </div>
-          <div className="main-container-bottom-right">
-              <Swaps />
-          </div>
-      </div>
-    </div>
+    <Routes>
+      <Route exact path="/" element={<Home />}/>
+      <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />}/>
+      <Route exact path="/exchanges" element={<Exchanges />}/>
+      <Route exact path="/markets" element={<Markets />}/>
+      <Route exact path="/news" element={<News query="cryptocurrency"/>}/>
+      <Route exact path="/crypto/:coinId" element={<CryptoDetails />}/>
+      
+    </Routes>
+    // <div className="main-container section__padding">
+    //   <Cards />
+    //   <div className="main-container-bottom">
+    //       <div className="main-container-bottom-left">
+    //           <TransactionHistory />
+    //       </div>
+    //       <div className="main-container-bottom-right">
+    //           <Swaps />
+    //       </div>
+    //   </div>
+    // </div>
   );
 };
 

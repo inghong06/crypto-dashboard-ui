@@ -40,34 +40,19 @@ a {
 }
 
 .main {
-  flex: 1;
-}
-
-.userdetail {
-  height: 100vh;
   width: 100%;
-  background-color: var(--background-navbar);
-  max-width: 375px;
+  margin-left: 145px;
+
 }
 
-@media screen and (max-width: 1440px) {
-  .userdetail {
-    max-width: 300px;
-  }
-}
+
 
 @media screen and (max-width: 750px) {
-  .userdetail {
-    display: none;
-  }
-
   .navbar {
     max-width: 100px;
-    position: fixed;
   }
 
   .main {
     margin-left: 100px;
-    overflow-y: auto;
   }
 }
