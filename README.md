@@ -3,7 +3,7 @@
 
 ![Crypto-ui](https://i.ibb.co/pwNYmYn/crypto-tracker.png)
 
-Design by [AR Shakir](https://www.arshakir.com/)
+Created based on design by [AR Shakir](https://www.arshakir.com/)
 
 # Note
 
