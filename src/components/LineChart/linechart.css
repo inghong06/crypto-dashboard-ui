@@ -1,0 +1,83 @@
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  /* min-width: 450px; */
+  
+}
+
+.timeframe-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.2rem;
+  border-radius: 10px;
+  background: #d1d5db;
+}
+
+.timeframe-container-button {
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.timeframe-container-button p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.timeframe-container-button:hover {
+  background: #e5e7eb;
+}
+
+.chart-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chart-header h4 {
+  font-family: var(--font-family);
+}
+
+.focus {
+  background: white;
+}
+
+/* .linechart {
+    display: flex;
+    overflow-x: auto;
+} */
+
+@media screen and (max-width: 950px) {
+  .chart-container {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .timeframe-container-button p {
+    font-size: 9px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+    .timeframe-container {
+        margin: 1rem 0;
+    }
+
+    .chart-header {
+        flex-direction: column;
+    }
+  }
+
+  

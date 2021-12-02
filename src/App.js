@@ -13,9 +13,6 @@ const App = () => {
       <div className="main">
         <Main />
       </div>
-      <div className="userdetail">
-        <UserDetail />
-      </div>
     </div>
   );
 };
