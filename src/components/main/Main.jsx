@@ -7,20 +7,24 @@ import {
   Exchanges,
   Markets,
   News,
-  CryptoDetails
+  CryptoDetails,
 } from "../../components";
+import Footer from "../Footer/Footer";
 
 const Main = () => {
   return (
-    <Routes>
-      <Route exact path="/" element={<Home />}/>
-      <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />}/>
-      <Route exact path="/exchanges" element={<Exchanges />}/>
-      <Route exact path="/markets" element={<Markets />}/>
-      <Route exact path="/news" element={<News query="cryptocurrency"/>}/>
-      <Route exact path="/crypto/:coinId" element={<CryptoDetails />}/>
-      
-    </Routes>
+    <div>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />} />
+        {/* <Route exact path="/exchanges" element={<Exchanges />} />
+        <Route exact path="/markets" element={<Markets />} /> */}
+        <Route exact path="/news" element={<News query="cryptocurrency" />} />
+        <Route exact path="/crypto/:coinId" element={<CryptoDetails />} />
+      </Routes>
+      <Footer />
+    </div>
+
     // <div className="main-container section__padding">
     //   <Cards />
     //   <div className="main-container-bottom">
